@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
         val fragmentManager= supportFragmentManager
         val fragmentTransaction=fragmentManager.beginTransaction()
 
-        drawerLayout.closeDrawers()
+        //drawerLayout.closeDrawers()
         fragmentTransaction.replace(R.id.frameLayout,fragment)
         fragmentTransaction.commit()
 
