@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@drawable/ic_baseline_design_services_24"
+        android:title="@string/projects"/>
+
+    <item
+        android:id="@+id/nav_aboutUS"
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        android:title="@string/about_us"/>
+
+    </group>
+
+    <item android:title="@string/profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:title="@string/login"
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_baseline_login_24" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/connect">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_career"
+                android:title="@string/join_us"
+                android:icon="@drawable/ic_baseline_emoji_people_24"/>
+
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="@string/contact_us"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

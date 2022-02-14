@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLayout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1140dp"
+                    android:background="@drawable/cosmosbg2">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="304dp"
+                        android:layout_height="44dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="290dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/we_don_t_promise_the_moon_we_show_the_way"
+                        android:textAlignment="center"
+                        android:textColor="#CD9E8C"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.439"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/imageView"
+                        app:layout_constraintVertical_bias="0.229" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="375dp"
+                    android:fontFamily="serif"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/our_website_developers_provide_expert_web_application_development_and_web_design_services_to_our_clients_cosmos_offers_a_variety_of_website_design_and_development_services_from_creating_mobile_web_development_solutions_and_responsive_website_designs_to_building_custom_e_commerce_and_intranet_experiences_using_the_latest_and_proven_web_technologies"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/cosmos"
+                    android:textColor="@color/white"
+                    android:textSize="75sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.256"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.145"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="725dp"
+                    android:background="#FBC3B1"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:paddingStart="30dp"
+                        android:text="@string/hire_us_for"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        tools:ignore="RtlSymmetry"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="@string/website_design"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:paddingTop="20dp"
+                        android:text="@string/our_web_design_team_has_ample_years_of_experience_in_the_core_areas_of_design_to_build_a_website_that_you_need"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:fontFamily="serif"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="982dp"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mobile_app_development"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="serif"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25sp"
+                        android:text="@string/creating_seamless_and_intuitive_mobile_applications_that_offer_the_best_user_experience_is_what_our_team_of_mobile_app_development_india_are_experts_at"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_marginTop="25sp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1182dp"
+                    android:background="#FBC3B1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/digital_marketing"
+                        android:fontFamily="serif"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginTop="25sp"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/with_researched_digital_marketing_we_will_ensure_that_new_customers_and_clients_are_able_to_find_your_business"
+                        android:fontFamily="serif"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="20sp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="1350dp"
+                    android:background="@color/black"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="50dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        android:text="Bangalore, India"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="chetan@cosmoss.in"
+                        android:textSize="30sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        tools:ignore="MissingConstraints" />
+</androidx.drawerlayout.widget.DrawerLayout>

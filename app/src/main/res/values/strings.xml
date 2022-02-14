@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">COSMOS</string>
+    <string name="cosmos">COSMOS</string>
+    <string name="we_don_t_promise_the_moon_we_show_the_way">We don\'t promise the moon we show the way</string>
+    <string name="our_website_developers_provide_expert_web_application_development_and_web_design_services_to_our_clients_cosmos_offers_a_variety_of_website_design_and_development_services_from_creating_mobile_web_development_solutions_and_responsive_website_designs_to_building_custom_e_commerce_and_intranet_experiences_using_the_latest_and_proven_web_technologies">Our website developers provide expert web application development and web design services to our clients.Cosmos offers a variety of website design and development services, from creating mobile web development solutions and responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies.</string>
+    <string name="our_web_design_team_has_ample_years_of_experience_in_the_core_areas_of_design_to_build_a_website_that_you_need">Our web design team has ample years of experience in the core areas of design to build a website that you need.</string>
+    <string name="website_design">Website Design</string>
+    <string name="hire_us_for">Hire Us For</string>
+    <string name="mobile_app_development">Mobile App Development</string>
+    <string name="creating_seamless_and_intuitive_mobile_applications_that_offer_the_best_user_experience_is_what_our_team_of_mobile_app_development_india_are_experts_at">Creating seamless and intuitive mobile applications that offer the best user experience is what our team of mobile app development, India are experts at.</string>
+    <string name="digital_marketing">Digital Marketing</string>
+    <string name="with_researched_digital_marketing_we_will_ensure_that_new_customers_and_clients_are_able_to_find_your_business">With researched digital marketing, we will ensure that new customers and clients are able to find your business.</string>
+    <string name="home">Home</string>
+    <string name="projects">Projects</string>
+    <string name="about_us">About Us</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="connect">Connect</string>
+    <string name="join_us">Join us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="welcome_abinav">Welcome Abinav</string>
+    <string name="about_Us">About US</string>
+    <string name="we_aim_to_provide_best_solutions_to_the_clients_as_our_tagline_also_states_we_don_t_promise_the_moon_we_show_the_way">We aim to provide best solutions to the clients as our tagline also states ” We don’t promise the moon we show the way”</string>
+    <string name="our_core_values">Our Core Values</string>
+    <string name="if_you_are_looking_for_the_best_website_design_development_and_marketing_services_to_grow_your_business_online_we_are_here_to_help_we_are_a_team_of_certified_experts_with_tremendous_experience_in_web_design_development_and_marketing_who_ll_walk_with_you_all_through">If you are looking for the best website design, development, and marketing services to grow your business online, we are here to help. We are a team of certified experts with tremendous experience in web design, development, and marketing who’ll walk with you all through.</string>
+    <string name="committed_to_delivering_the_best">Committed to delivering the best</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="any_question_or_remarks">Any question or remarks?</string>
+    <string name="just_write_us_a_message">Just write us a message!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="subject">Subject</string>
+    <string name="_91_8884402955">+91 8884402955</string>
+    <string name="bangalore_india">Bangalore, India</string>
+    <string name="follow_us">Follow us</string>
+    <string name="we_are_here_to_help">We are here to help!</string>
+    <string name="send_message">Send Message</string>
+    <string name="your_message">Your Message</string>
+</resources>

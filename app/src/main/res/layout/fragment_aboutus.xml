@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".AboutUs">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewCount,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cosmosbg2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_Us"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:layout_margin="16sp"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:textAlignment="center"
+                android:fontFamily="serif"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="458dp"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/aboutus1"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:text="@string/we_aim_to_provide_best_solutions_to_the_clients_as_our_tagline_also_states_we_don_t_promise_the_moon_we_show_the_way"
+                android:fontFamily="serif"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:text="@string/if_you_are_looking_for_the_best_website_design_development_and_marketing_services_to_grow_your_business_online_we_are_here_to_help_we_are_a_team_of_certified_experts_with_tremendous_experience_in_web_design_development_and_marketing_who_ll_walk_with_you_all_through"
+                android:fontFamily="serif"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="16dp"
+                android:paddingTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/our_core_values"
+                android:textSize="45sp"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:paddingTop="16dp"
+                android:fontFamily="serif"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/committed_to_delivering_the_best"
+                android:textColor="@color/white"
+                android:fontFamily="serif"
+                android:background="@color/black"
+                android:textSize="18sp" android:layout_marginLeft="16dp"
+                android:textAlignment="center"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/black"
+                android:fontFamily="serif"
+                android:text="Honest and transparent services"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/black"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:text="We care for your business just like ours"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/black"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:text="Keep learning and adapting to new technologies"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="458dp"
+                    android:layout_margin="0dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/aboutus1"
+                    android:padding="16dp"/>
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/aboutus1"
+                    android:padding="16dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>
